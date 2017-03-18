@@ -1,0 +1,34 @@
+img {
+    float: left;
+    max-width: 31%;
+
+    padding: 1%;
+}
+@media screen and (max-width: 768px) {
+    div.image_gallery {
+        min-width: 320px;
+    }
+    img {
+        max-width: 48%;
+        height: auto;
+        padding: 1%;
+    }
+}
+@media screen and (max-width: 480px) {
+    div.image_gallery {
+        width: 320px;
+        min-width: 320px;
+    }
+    img {
+        max-width: 98%;
+        height: auto;
+        padding: 1%;
+    }
+}
+.pisos2 {
+  float: left;
+}
+
+.pisos {
+  float: left;
+}
